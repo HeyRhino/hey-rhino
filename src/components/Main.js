@@ -33,6 +33,8 @@ class AppComponent extends React.Component {
           <img className="logo-grads" src={logoGrads} alt="gradients" />
         </div>
 
+        <p className="logo-text">Hey, Rhino</p>
+
       </div>
     );
   }

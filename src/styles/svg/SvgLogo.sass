@@ -1,12 +1,15 @@
-$logowidth: 550px;
+$logowidth: 300px;
 
 .logo, .logo-grads-container
-  margin: 0 auto;
+  margin: 50vh auto 0;
   width: $logowidth;
 
 .logo-grads-container
   mix-blend-mode: multiply;
   animation: pulse 10s infinite;
+
+  img
+    margin-top: -75%;
 
 .logo-half
   width: $logowidth;
@@ -24,6 +27,9 @@ $logowidth: 550px;
   opacity: 1;
 
 .logo
+  svg
+    margin-top: -75%;
+
   .st0
     fill: none;
     stroke-linecap: round;
@@ -61,3 +67,12 @@ $logowidth: 550px;
   0%   { opacity: 0.25; }
   50% { opacity: 1; }
   100% { opacity: 0.25; }
+
+
+.logo-text
+  color: rgba(#87BBA2, 0.5);
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Codystar', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
