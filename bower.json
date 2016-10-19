@@ -1,0 +1,20 @@
+{
+  "name": "heyrhino",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ryan Daly"
+  ],
+  "license": "MIT",
+  "homepage": "http://heyrhino.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "^1.19.0"
+  }
+}

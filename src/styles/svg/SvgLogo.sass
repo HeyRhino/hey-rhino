@@ -1,0 +1,63 @@
+$logowidth: 550px;
+
+.logo, .logo-grads-container
+  margin: 0 auto;
+  width: $logowidth;
+
+.logo-grads-container
+  mix-blend-mode: multiply;
+  animation: pulse 10s infinite;
+
+.logo-half
+  width: $logowidth;
+  position: absolute;
+  mix-blend-mode: overlay;
+
+.logo-half-left
+  transform: scaleX(-1);
+  margin-left: -1px;
+
+.logo-half-right
+  margin-left: 1px;
+
+.logo-half path
+  opacity: 1;
+
+.logo
+  .st0
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+  .st1
+    display: none;
+
+  .st2
+    display: inline;
+
+  &:nth-child(1)
+    svg
+      opacity: 1;
+      stroke-width: 1px;
+  &:nth-child(2)
+    svg
+      opacity: 0.9;
+      stroke-width: 1px;
+  &:nth-child(3)
+    svg
+      opacity: 0.8;
+      stroke-width: 1px;
+  &:nth-child(4)
+    svg
+      opacity: 0.7;
+      stroke-width: 1px;
+
+@keyframes pulse
+  0%   { opacity: 0.4; }
+  50% { opacity: 0.8; }
+  100% { opacity: 0.4; }
+
+@keyframes pulseOther
+  0%   { opacity: 0.25; }
+  50% { opacity: 1; }
+  100% { opacity: 0.25; }
