@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 bower_components
 node_modules
-=======
+dist
+
 # Logs
 logs
 *.log
@@ -39,4 +39,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
->>>>>>> 404980e8f5b3e6e8762859c0d385759ccb25335f
